@@ -1,0 +1,17 @@
+name = CMS Event Registration
+description = CMS Event Registration registration type.
+core = 7.x
+package = CGI Deluge Features
+version = 7.x-1.0
+project = cms_event_registration
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = number
+dependencies[] = registration
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = registration-cms_event_registration-field_number_of_attendees
+features[field][] = registration-cms_event_registration-field_organization_name
+features[field][] = registration-cms_event_registration-field_organization_phone_number
+features[field][] = registration-cms_event_registration-field_organizational_code
+features[registration_type][] = cms_event_registration

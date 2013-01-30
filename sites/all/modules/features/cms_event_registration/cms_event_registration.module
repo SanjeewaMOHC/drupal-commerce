@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CMS Event Registration feature.
+ */
+
+include_once 'cms_event_registration.features.inc';
